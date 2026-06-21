@@ -5,12 +5,8 @@ import subprocess
 import requests
 from tkinter import messagebox
 
-# CHANGE THESE to match your actual GitHub username and repository name
-GITHUB_USER = "yourusername"
-GITHUB_REPO = "overcast-vpn-client"
-
-VERSION_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/main/version.txt"
-RAW_SRC_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/main/src/"
+VERSION_URL = f"https://raw.githubusercontent.com/eqvx/overcast/main/version.txt"
+RAW_SRC_URL = f"https://raw.githubusercontent.com/eqvx/overcast/main/src/"
 
 TEMP_DIR = os.environ.get('TEMP', os.getcwd())
 UPDATER_SCRIPT_PATH = os.path.join(TEMP_DIR, "overcast_patcher.py")
