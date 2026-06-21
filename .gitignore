@@ -1,0 +1,9 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Local runtime app data & caches
+vpngate_cache.json
+vpngate_favorites.json
+vpn_config.ovpn
+openvpn_setup.msi
