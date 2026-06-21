@@ -5,7 +5,7 @@ from ui import InstallerProgressModal, VPNApp
 from updater import check_for_updates
 
 # Define local release version mapping metric
-__VERSION__ = "1.0.0"
+__VERSION__ = "1.0.1"
 
 def launch_download_modal(url, target_path):
     """Callback bridge allowing core to spawn the download UI window."""

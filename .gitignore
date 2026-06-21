@@ -2,6 +2,10 @@
 __pycache__/
 *.pyc
 
+# Binary output
+/dist/
+/build/
+
 # Local runtime app data & caches
 vpngate_cache.json
 vpngate_favorites.json
