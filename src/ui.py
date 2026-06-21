@@ -7,7 +7,7 @@ import subprocess
 import requests
 import tkinter as tk
 from tkinter import ttk, messagebox
-from .core import VPNGATE_API_URL, CACHE_JSON_PATH, FAVORITES_JSON_PATH, VPNManager
+from core import VPNGATE_API_URL, CACHE_JSON_PATH, FAVORITES_JSON_PATH, VPNManager
 
 class InstallerProgressModal(tk.Tk):
     def __init__(self, download_url, save_path):
