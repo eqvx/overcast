@@ -2,9 +2,10 @@
 __pycache__/
 *.pyc
 
-# Binary output
+# Pyinstaller output files
 /dist/
 /build/
+*.spec
 
 # Local runtime app data & caches
 vpngate_cache.json
