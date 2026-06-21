@@ -52,7 +52,7 @@ overcast-vpn-client/
 1. **Clone the repository:**
 
 ```bash
-   git clone [https://github.com/eqvx/overcast.git](https://github.com/eqvx/overcast.git)
+   git clone https://github.com/eqvx/overcast.git
    cd overcast
 
 ```
